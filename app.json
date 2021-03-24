@@ -1,10 +1,12 @@
 {
   "expo": {
-    "name": "newrsv",
+    "name": "이로운건강방",
     "slug": "newrsv",
-    "version": "1.0.0",
+    "privacy": "public",
+    "platforms":["android"],
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "version": "1.0.9",
+    "icon": "./assets/메인투명.png",
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
@@ -16,17 +18,13 @@
     "assetBundlePatterns": [
       "**/*"
     ],
-    "ios": {
-      "supportsTablet": true
-    },
     "android": {
+      "package": "com.crona.newrsv",
+      "versionCode": 9,
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/메인투명.png",
         "backgroundColor": "#FFFFFF"
       }
-    },
-    "web": {
-      "favicon": "./assets/favicon.png"
     }
   }
 }
